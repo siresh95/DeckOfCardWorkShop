@@ -12,12 +12,18 @@ public class NumberOfPlayer {
 
         if (player >= 2 && player <= 4) {
             System.out.println("\n" + player + " players will play the game");
-        }
-        else {
+        } else {
             System.out.println("Please enter number of players in the Range");
             noOfPlayers();
         }
     }
 
+    public static void playsequence() {
+
+        for (int i = 1; i <= 4; i++) {
+            System.out.println("Player " + i + " Getting card:");
+        }
+
     }
+}
 
